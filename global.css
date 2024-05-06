@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(49, 47, 47);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a, #separator {
+    font-size: large;
+    color: rgb(205, 196, 183);
+    font-weight: bold;
+}
+
+#separator {
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(67, 45, 17);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-content: space-evenly;
+    margin: 3em;
+}
+
+.container > * {
+    padding: 1em;
+}
+
+h3, h4 {
+    margin-bottom: 0.5em;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid antiquewhite;
+    padding: 0.5em;
+    display: grid;
+}
+
+li > span {
+    padding: 0.2em;
+}
+
+#portrait {
+    height: 28rem;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+.content {
+  align-items: center;
+}
+
+.content > * {
+    margin-bottom: 2rem;
+}
+
+.contact > p, ul > li {
+    margin-bottom: 0.5em;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+}
