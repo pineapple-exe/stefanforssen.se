@@ -50,8 +50,16 @@ li {
     display: grid;
 }
 
-li > span {
+li > .event > span {
     padding: 0.2em;
+}
+
+.event img {
+  max-width: 360px;  
+  height: auto;      
+  display: block;
+  margin: 1em 0 1em 0;
+  border-radius: 8px;
 }
 
 #portrait {
